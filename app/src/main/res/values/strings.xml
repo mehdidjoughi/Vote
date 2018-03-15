@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Votes</string>
+
+    <string name="vote0">Vote 0</string>
+    <string name="vote1">Vote 1</string>
+    <string name="vote2">Vote 2</string>
+    <string name="vote3">Vote 3</string>
+    <string name="nombre_totale_des_votes">Nombre totale des votes</string>
+    <string name="search_hint">Type name…</string>
+
+    <string name="gf">fdsf</string>
+</resources>

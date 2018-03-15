@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:fontFamily="sans-serif-meduim" />
+        <EditText
+            android:id="@+id/nameView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:fontFamily="sans-serif-light"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:textAppearance="?android:textAppearanceSmall" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Last name"
+            android:textColor="#000000"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:fontFamily="sans-serif-meduim" />
+        <EditText
+            android:id="@+id/lastNameView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Last name"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:inputType="textCapWords"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Email"
+            android:textColor="#000000"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:fontFamily="sans-serif-meduim" />
+        <EditText
+            android:id="@+id/emailView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawablePadding="12dp"
+            android:hint="xyz@exemple.com"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vote"
+            android:textColor="#000000"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:fontFamily="sans-serif-meduim" />
+        <Spinner
+            android:id="@+id/spinnerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+    </ScrollView>

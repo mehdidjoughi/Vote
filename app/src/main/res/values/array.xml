@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_vote_options">
+        <item>@string/vote0</item>
+        <item>@string/vote1</item>
+        <item>@string/vote2</item>
+        <item>@string/vote3</item>
+    </string-array>
+
+    <string-array name="query_suggestions">
+        <item>Furniture</item>
+        <item>Women Fashion</item>
+        <item>Hotels</item>
+        <item>Man Fashion</item>
+        <item>Electronics Appliances</item>
+    </string-array>
+
+</resources>
